@@ -9,12 +9,11 @@ const firebaseConfig = {
   authDomain: "mmwholesale-46f85.firebaseapp.com",
   databaseURL: "https://mmwholesale-46f85-default-rtdb.firebaseio.com",
   projectId: "mmwholesale-46f85",
-  storageBucket: "mmwholesale-46f85.appspot.com", // ✅ FIXED
+  storageBucket: "mmwholesale-46f85.firebasestorage.app", // ✅ FIXED HERE
   messagingSenderId: "1010794740019",
   appId: "1:1010794740019:web:d04f7105cae60d76702646",
   measurementId: "G-ZDM9TNGPZ1",
 };
-
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
