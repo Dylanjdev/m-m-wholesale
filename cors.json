@@ -1,0 +1,16 @@
+[
+  {
+    "origin": [
+      "https://mmwholesale-46f85.web.app",
+      "http://localhost:5173"
+    ],
+    "method": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    "responseHeader": [
+      "Authorization",
+      "Content-Type",
+      "x-goog-meta-*",
+      "x-firebase-storage-version"
+    ],
+    "maxAgeSeconds": 3600
+  }
+]
